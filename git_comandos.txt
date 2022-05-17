@@ -1,0 +1,25 @@
+# comandos git mas mas importantes
+
+# configuracion inicial
+git config --global user.name "cristhian olarte"
+git config --global user.email graficolarte@gmail.com
+git config --global core.editor "code --wait"
+git config --global -e
+git config --global core.autocrlf "true" para windows "input" para linux/mac
+
+
+# comandos usados
+git init                    -> para iniciar un repositorio o reiniciar uno ya existente
+git status                  -> status del repositorio
+git add .                   -> agrega el contenido de la fotografria
+git reset .                 -> descarta el contenido de la fotografia anterior
+git commit -m " "           -> toma la fotografia
+git push                    -> enviar a github
+git checkout -- .           -> re toma los archivos del ultimo commit
+git log                     -> muestra registro de acciones de git
+git commit --amend          -> edita el commit mensaje anterior
+git checkout -b nombre-rama -> crea una nueva rama y se cambia a ella
+git branch                  -> para mirar las diferentes ramas
+git merge nombre-rama       -> combina la rama nombrada con la rama actual en la que se trabaja
+git branch -d nombre-rama   -> elimina la rama nombrada
+git commit -am ""           -> agrega una fotografia pero agrega el contenido antes (git add .) en un solo comando
