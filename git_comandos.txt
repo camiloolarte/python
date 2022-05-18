@@ -13,6 +13,7 @@ git init                    -> para iniciar un repositorio o reiniciar uno ya ex
 git status                  -> status del repositorio
 git status -s               -> status del repositorio pero mas simple
 git add .                   -> agrega el contenido de la fotografria
+git diff                    -> muestra de forma grafica los cambios 
 git reset .                 -> descarta el contenido de la fotografia anterior
 git commit -m " "           -> toma la fotografia
 git push                    -> enviar a github
