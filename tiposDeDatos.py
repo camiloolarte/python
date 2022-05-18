@@ -1,3 +1,19 @@
 # tipos de datos python
 
-#estoy modificando el archico en la rama 2
+#string
+print('"Isn\'t," they said.')
+
+s = 'First line.\nSecond line.'
+print(s)
+
+print(r'C:\some\name') #cadenas sin formato
+
+print("""
+Usage: thingy [OPTIONS]
+     -h                        Display this usage message
+     -H hostname               Hostname to connect to
+""")
+
+print (3*'mi' + 'ma')
+
+word = 'Python'
