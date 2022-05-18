@@ -17,3 +17,5 @@ Usage: thingy [OPTIONS]
 print (3*'mi' + 'ma')
 
 word = 'Python'
+print(word[5], word[-4], word[0:2], word[2:5])  # character in position 0) 
+
