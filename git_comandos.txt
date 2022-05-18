@@ -11,6 +11,7 @@ git config --global core.autocrlf "true" para windows "input" para linux/mac
 # comandos usados
 git init                    -> para iniciar un repositorio o reiniciar uno ya existente
 git status                  -> status del repositorio
+git status -s               -> status del repositorio pero mas simple
 git add .                   -> agrega el contenido de la fotografria
 git reset .                 -> descarta el contenido de la fotografia anterior
 git commit -m " "           -> toma la fotografia
