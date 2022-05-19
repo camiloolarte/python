@@ -1,6 +1,6 @@
 # tipos de datos python
 
-# ----------------------- STRINGS -------------------
+print(' ----------------------- STRINGS -------------------')
 
 print('"Isn\'t," they said. #tilde dentro de comillas')
 
@@ -36,8 +36,14 @@ print(word[-2:]+' (-2)')
 print(word[:2] + word[2:] + '(:2)+(2:)')
 print(word[:4] + word[4:]+' (:4)+(4:)')
 
-print('J' + word[1:]+' J+word[1:] #para asignar un caracter dentro d euna cadena de debe creae una nueva')
+print('J' + word[1:]+' J+word[1:] #para asignar un caracter dentro de una cadena se debe crear una nueva')
 
-#----------------------------LISTAS------------------------------
+print(' ----------------------- LISTAS -------------------')
+
+squares = [1, 4, 9, 16, 25]
+print('squares = ', squares)
+print(squares[4], ' squares[4]')
+
+
 
 
