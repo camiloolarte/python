@@ -17,6 +17,7 @@ git diff                    -> muestra de forma grafica los cambios
 git reset .                 -> descarta el contenido de la fotografia anterior
 git commit -m " "           -> toma la fotografia
 git push                    -> enviar a github
+git pull origin nombreRama  -> actualiza la rama local desde el servidor
 git checkout -- .           -> re toma los archivos del ultimo commit
 git log                     -> muestra registro de acciones de git
 git commit --amend          -> edita el commit mensaje anterior
