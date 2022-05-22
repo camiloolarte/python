@@ -44,5 +44,4 @@ squares = [1, 4, 9, 16, 25]
 print('squares = ', squares)
 print(squares[4], ' squares[4]')
 
-
-
+#otra linea
