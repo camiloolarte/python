@@ -44,4 +44,36 @@ squares = [1, 4, 9, 16, 25]
 print('squares = ', squares)
 print(squares[4], ' squares[4]')
 
-#otra linea
+squares + [36, 49, 64, 81, 100]
+print(squares)
+
+cubes = [1, 8, 27, 65, 125]
+print(cubes, '#cubes = [1, 8, 27, 65, 125]')
+cubes[3] = 64  # replace the wrong value
+print(cubes, '#cubes[3] = 64')
+
+cubes.append(216)
+cubes.append(7 ** 3)
+print(cubes, '#cubes.append(216) despues cubes.append(7 ** 3)')
+
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+print(" letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']")
+print(letters)
+# replace some values
+letters[2:5] = ['C', 'D', 'E']
+print(letters, " letters[2:5] = ['C', 'D', 'E']")
+# now remove them
+letters[2:5] = []
+print(letters, ' letters[2:5] = []')
+# clear the list by replacing all the elements with an empty list
+letters[:] = []
+print(letters, " letters[:] = []")
+
+a = ['a', 'b', 'c']
+print("a = ['a', 'b', 'c']")
+n = [1, 2, 3]
+print('n = [1, 2, 3]')
+x = [a, n]
+print(x, '#x = [a, n]')
+print(x[0], '#x[0]')
+print(x[0][1], '#x[0][1]')
