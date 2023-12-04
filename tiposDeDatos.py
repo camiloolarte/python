@@ -77,3 +77,6 @@ x = [a, n]
 print(x, '#x = [a, n]')
 print(x[0], '#x[0]')
 print(x[0][1], '#x[0][1]')
+
+
+print("texto de prueba")
